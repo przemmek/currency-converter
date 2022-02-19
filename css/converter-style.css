@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #7db3a193;
+    max-width: 700px;
+    margin: auto;
+    color: #2a074b;
+}
+
+.body__mainHeader {
+    color: #2a074b;
+}
+
+.body__secondHeader {
+    color: #2a074b;
+}
+
+.body__footer {
+    border: solid 1px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.currencyForm__fieldset {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.currencyForm {
+    color: #000000;
+}
